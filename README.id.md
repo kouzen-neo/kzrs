@@ -67,15 +67,26 @@ Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi (Settings > Storage).
 KZRS gratis dengan **10 halaman terjemahan per hari**. Editor, pembaca dan ekspor tidak dibatasi.
 
 Kode **Supporter** menghapus batas harian dan membuka command line serta tool agen AI. Satu kode
-berlaku di satu komputer selama satu tahun. Untuk mendapatkannya, hubungi pengembang; kodenya
-dikirim lewat pesan dan kamu aktifkan sendiri di aplikasi (*Supporter activation*, atau chip di
-bilah atas).
+berlaku di satu komputer selama satu tahun.
+
+### Cara mendapatkan kode
+
+1. Kirim pesan ke **Ardyan** di [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/) untuk menanyakan harga.
+2. Bayar lewat **QRIS** (aplikasi bank atau e-wallet apa saja: GoPay, OVO, DANA, ShopeePay, m-banking).
+3. Kirim bukti pembayaran di Facebook. Kode kamu (`KZRS-XXXX-XXXX-XXXX`) dikirim lewat pesan.
+4. Di KZRS, buka *Supporter activation* (muncul saat pertama dibuka, atau klik chip di kanan bilah
+   atas), tempel kodenya lalu tekan **Activate**.
+
+<div align="center">
+  <img src="docs/assets/qris.jpg" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
+  <p><sub>QRIS · ARDYAN DEV, DIGITAL &amp; KREATIF</sub></p>
+</div>
 
 ---
 
 ## Masukan
 
-Bug dan ide: [Issues](https://github.com/kouzen-neo/kzrs/issues).
+Bug dan ide: [Issues](https://github.com/kouzen-neo/kzrs/issues), atau [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/).
 
 Perubahan tiap versi: [CHANGELOG.md](CHANGELOG.md).
 

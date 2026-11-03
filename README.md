@@ -67,14 +67,26 @@ The optional OCR and LaMa models download from inside the app (Settings > Storag
 KZRS is free with **10 translated pages a day**. The editor, reader and export are not limited.
 
 A **Supporter** code removes the daily limit and unlocks the command line and the AI agent tools.
-A code works on one computer for one year. To get one, contact the developer; the code arrives by
-message and you activate it in the app (*Supporter activation*, or the chip in the top bar).
+A code works on one computer for one year.
+
+### How to get a code
+
+1. Message **Ardyan** on [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/) to ask the price.
+2. Pay with **QRIS** (any Indonesian bank or e-wallet app: GoPay, OVO, DANA, ShopeePay, m-banking).
+3. Send the payment receipt on Facebook. Your code (`KZRS-XXXX-XXXX-XXXX`) arrives by message.
+4. In KZRS, open *Supporter activation* (shown at the first start, or click the chip at the right of
+   the top bar), paste the code and press **Activate**.
+
+<div align="center">
+  <img src="docs/assets/qris.jpg" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
+  <p><sub>QRIS · ARDYAN DEV, DIGITAL &amp; KREATIF</sub></p>
+</div>
 
 ---
 
 ## Feedback
 
-Bugs and ideas: [Issues](https://github.com/kouzen-neo/kzrs/issues).
+Bugs and ideas: [Issues](https://github.com/kouzen-neo/kzrs/issues), or [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/).
 
 Changes per version: [CHANGELOG.md](CHANGELOG.md).
 
