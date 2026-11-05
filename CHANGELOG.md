@@ -2,9 +2,9 @@
 
 All notable changes to KZRS, newest first.
 
-## Unreleased
+## 1.0.0 (2026-11-06)
 
-First public release, coming soon.
+First public release, for Windows and Linux. macOS is coming soon.
 
 ### Translate
 - Translate images, folders, ZIP / CBZ, EPUB and PDF; each run becomes a project you can reopen.
@@ -25,9 +25,11 @@ First public release, coming soon.
 - Page and webtoon reading; export to CBZ or PDF.
 
 ### Free and Supporter
-- Free: 10 translated pages a day in the app; the editor, reader and export are unlimited.
-- Supporter: no daily limit, plus the command line and the AI agent tools (MCP) for Claude Code,
-  OpenCode and Codex. One code, one computer, one year.
+- Free: 10 translated pages and 5 manual (editor-only) pages a day; editing, reading and exporting
+  what you already have are not limited.
+- Supporter: no daily limits, plus the command line and the AI agent tools (MCP) for Claude Code,
+  OpenCode and Codex. One code, one computer, 1 year or 3 years.
 
 ### Downloads
-- Windows setup `.exe` and `.msi`, macOS `.dmg` (Apple Silicon), Linux AppImage and `.tar.gz`.
+- Windows setup `.exe` (no admin needed) and `.msi`, Linux AppImage and `.tar.gz`.
+- macOS `.dmg` (Apple Silicon): coming soon.

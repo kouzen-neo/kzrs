@@ -5,7 +5,7 @@
   <p>
     <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=d9531e" alt="Latest release"></a>
     <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4.svg?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-    <img src="https://img.shields.io/badge/macOS-11%2B-000000.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
+    <img src="https://img.shields.io/badge/macOS-coming%20soon-6e7681.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS coming soon">
     <img src="https://img.shields.io/badge/Linux-x86__64-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
     <img src="https://img.shields.io/badge/Rust-native-b7410e.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
   </p>
@@ -31,17 +31,17 @@ Get the latest version from **[Releases](https://github.com/kouzen-neo/kzrs/rele
 
 | System | File | How to install |
 |---|---|---|
-| Windows 10/11 (64-bit) | `KZRS-Setup-<version>-x64.exe` | Run it and follow the steps. `KZRS-<version>-x64.msi` is the same app for IT / company PCs. |
-| macOS 11+ (Apple Silicon) | `KZRS-<version>-macos-arm64.dmg` | Open it and drag **KZRS** to **Applications**. |
+| Windows 10/11 (64-bit) | `KZRS-Setup-<version>-x64.exe` | Run it and follow the steps (no admin needed). `KZRS-<version>-x64.msi` is the same app for IT / company PCs. |
 | Linux x86_64 | `KZRS-<version>-x86_64.AppImage` | Make it executable (`chmod +x`, or Properties → Allow executing) and open it. A `.tar.gz` with an `install.sh` menu installer is there too. |
+| macOS (Apple Silicon) | Coming soon | |
 
 The apps are not code-signed yet, so the system asks once:
 
 - **Windows**: "Windows protected your PC" → **More info** → **Run anyway**.
-- **macOS**: open KZRS once, then **System Settings → Privacy & Security → Open Anyway**.
 - **Linux AppImage**: if it does not start, install `libfuse2`, or run it with `--appimage-extract-and-run`.
 
-The optional OCR and LaMa models download from inside the app (Settings > Storage).
+The optional OCR and LaMa models download from inside the app the first time they are needed
+(Settings > Models).
 
 ---
 
@@ -64,18 +64,27 @@ The optional OCR and LaMa models download from inside the app (Settings > Storag
 
 ## Free and Supporter
 
-KZRS is free with **10 translated pages a day**. The editor, reader and export are not limited.
+KZRS is free with **10 translated pages** and **5 manual (editor-only) pages a day**. Editing,
+reading and exporting what you already have are not limited. No account is needed.
 
-A **Supporter** code removes the daily limit and unlocks the command line and the AI agent tools.
-A code works on one computer for one year.
+A **Supporter** code removes the daily limits and unlocks the command line and the AI agent tools
+(MCP) for Claude Code, OpenCode and Codex. A code works on one computer.
+
+| Plan | Price |
+|---|---|
+| Supporter · 1 year | Rp 20.000 |
+| Supporter · 3 years | Rp 50.000 (save Rp 10.000) |
 
 ### How to get a code
 
-1. Message **Ardyan** on [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/) to ask the price.
+1. Message **Ardyan** on [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/) and say which plan you
+   want: 1 year or 3 years.
 2. Pay with **QRIS** (any Indonesian bank or e-wallet app: GoPay, OVO, DANA, ShopeePay, m-banking).
 3. Send the payment receipt on Facebook. Your code (`KZRS-XXXX-XXXX-XXXX`) arrives by message.
 4. In KZRS, open *Supporter activation* (shown at the first start, or click the chip at the right of
    the top bar), paste the code and press **Activate**.
+
+New computer? Remove the old device in *Supporter activation*, then activate the code on the new one.
 
 <div align="center">
   <img src="docs/assets/qris.jpg" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
