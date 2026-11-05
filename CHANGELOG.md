@@ -31,5 +31,6 @@ First public release, for Windows and Linux. macOS is coming soon.
   OpenCode and Codex. One code, one computer, 1 year or 3 years.
 
 ### Downloads
-- Windows setup `.exe` (no admin needed) and `.msi`, Linux AppImage and `.tar.gz`.
+- Windows setup `.exe` (no admin needed) and `.msi`, Linux AppImage and `.tar.gz` (Ubuntu 24.04,
+  Debian 13, Fedora 39, Mint 22 or newer).
 - macOS `.dmg` (Apple Silicon): coming soon.

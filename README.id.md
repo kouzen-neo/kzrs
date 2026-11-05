@@ -32,7 +32,7 @@ Ambil versi terbaru di **[Releases](https://github.com/kouzen-neo/kzrs/releases/
 | Sistem | File | Cara pasang |
 |---|---|---|
 | Windows 10/11 (64-bit) | `KZRS-Setup-<versi>-x64.exe` | Jalankan dan ikuti langkahnya (tidak perlu admin). `KZRS-<versi>-x64.msi` adalah aplikasi yang sama untuk IT / PC kantor. |
-| Linux x86_64 | `KZRS-<versi>-x86_64.AppImage` | Jadikan executable (`chmod +x`, atau Properties → Allow executing) lalu buka. Ada juga `.tar.gz` dengan `install.sh` untuk menu aplikasi. |
+| Linux x86_64 (Ubuntu 24.04, Debian 13, Fedora 39, Mint 22 atau lebih baru) | `KZRS-<versi>-x86_64.AppImage` | Jadikan executable (`chmod +x`, atau Properties → Allow executing) lalu buka. Ada juga `.tar.gz` dengan `install.sh` untuk menu aplikasi. |
 | macOS (Apple Silicon) | Segera hadir | |
 
 Aplikasinya belum ditandatangani (code signing), jadi sistem akan bertanya sekali:

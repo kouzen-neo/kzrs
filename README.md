@@ -32,7 +32,7 @@ Get the latest version from **[Releases](https://github.com/kouzen-neo/kzrs/rele
 | System | File | How to install |
 |---|---|---|
 | Windows 10/11 (64-bit) | `KZRS-Setup-<version>-x64.exe` | Run it and follow the steps (no admin needed). `KZRS-<version>-x64.msi` is the same app for IT / company PCs. |
-| Linux x86_64 | `KZRS-<version>-x86_64.AppImage` | Make it executable (`chmod +x`, or Properties → Allow executing) and open it. A `.tar.gz` with an `install.sh` menu installer is there too. |
+| Linux x86_64 (Ubuntu 24.04, Debian 13, Fedora 39, Mint 22 or newer) | `KZRS-<version>-x86_64.AppImage` | Make it executable (`chmod +x`, or Properties → Allow executing) and open it. A `.tar.gz` with an `install.sh` menu installer is there too. |
 | macOS (Apple Silicon) | Coming soon | |
 
 The apps are not code-signed yet, so the system asks once:
