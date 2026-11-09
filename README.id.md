@@ -107,7 +107,7 @@ Claude Code, OpenCode dan Codex. Satu kode berlaku di satu komputer.
 Ganti komputer? Hapus perangkat lama di *Supporter activation*, lalu aktifkan kodenya di komputer baru.
 
 <div align="center">
-  <img src="docs/assets/qris.jpg" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
+  <img src="docs/assets/qris.png" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
   <p><sub>QRIS · ARDYAN DEV, DIGITAL &amp; KREATIF</sub></p>
 </div>
 

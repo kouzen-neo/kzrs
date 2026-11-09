@@ -107,7 +107,7 @@ A **Supporter** code removes the daily limits and unlocks the command line and t
 New computer? Remove the old device in *Supporter activation*, then activate the code on the new one.
 
 <div align="center">
-  <img src="docs/assets/qris.jpg" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
+  <img src="docs/assets/qris.png" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
   <p><sub>QRIS · ARDYAN DEV, DIGITAL &amp; KREATIF</sub></p>
 </div>
 
