@@ -97,10 +97,10 @@ Claude Code, OpenCode dan Codex. Satu kode berlaku di satu komputer.
 
 ### Cara mendapatkan kode
 
-1. Kirim pesan ke **Ardyan** di [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/) dan sebutkan
-   paket yang kamu mau: 1 tahun atau 3 tahun.
+1. Gabung [Discord](https://discord.gg/CdZUeMQQK) KZRS dan buka channel **#license**. Sebutkan paket yang kamu mau:
+   1 tahun atau 3 tahun.
 2. Bayar lewat **QRIS** (aplikasi bank atau e-wallet apa saja: GoPay, OVO, DANA, ShopeePay, m-banking).
-3. Kirim bukti pembayaran di Facebook. Kode kamu (`KZRS-XXXX-XXXX-XXXX`) dikirim lewat pesan.
+3. Kirim bukti pembayaran di **#license**. Kode kamu (`KZRS-XXXX-XXXX-XXXX`) dikirim lewat pesan.
 4. Di KZRS, buka *Supporter activation* (muncul saat pertama dibuka, atau klik chip di kanan bilah
    atas), tempel kodenya lalu tekan **Activate**.
 
@@ -115,7 +115,7 @@ Ganti komputer? Hapus perangkat lama di *Supporter activation*, lalu aktifkan ko
 
 ## Masukan
 
-Bug dan ide: [Issues](https://github.com/kouzen-neo/kzrs/issues), atau [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/).
+Bug dan ide: [Issues](https://github.com/kouzen-neo/kzrs/issues), atau [Discord](https://discord.gg/CdZUeMQQK).
 
 Perubahan tiap versi: [CHANGELOG.md](CHANGELOG.md).
 

@@ -97,10 +97,10 @@ A **Supporter** code removes the daily limits and unlocks the command line and t
 
 ### How to get a code
 
-1. Message **Ardyan** on [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/) and say which plan you
-   want: 1 year or 3 years.
+1. Join the KZRS [Discord](https://discord.gg/CdZUeMQQK) and open the **#license** channel. Say which plan you want:
+   1 year or 3 years.
 2. Pay with **QRIS** (any Indonesian bank or e-wallet app: GoPay, OVO, DANA, ShopeePay, m-banking).
-3. Send the payment receipt on Facebook. Your code (`KZRS-XXXX-XXXX-XXXX`) arrives by message.
+3. Post the payment receipt in **#license**. Your code (`KZRS-XXXX-XXXX-XXXX`) arrives by message.
 4. In KZRS, open *Supporter activation* (shown at the first start, or click the chip at the right of
    the top bar), paste the code and press **Activate**.
 
@@ -115,7 +115,7 @@ New computer? Remove the old device in *Supporter activation*, then activate the
 
 ## Feedback
 
-Bugs and ideas: [Issues](https://github.com/kouzen-neo/kzrs/issues), or [Facebook](https://www.facebook.com/share/1FZ2SXJmeL/).
+Bugs and ideas: [Issues](https://github.com/kouzen-neo/kzrs/issues), or [Discord](https://discord.gg/CdZUeMQQK).
 
 Changes per version: [CHANGELOG.md](CHANGELOG.md).
 
