@@ -3,7 +3,7 @@
   <h1>KZRS</h1>
 
   <p>
-    <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=d9531e" alt="Latest release"></a>
+    <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=f0a43a" alt="Latest release"></a>
     <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4.svg?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
     <img src="https://img.shields.io/badge/macOS-coming%20soon-6e7681.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS coming soon">
     <img src="https://img.shields.io/badge/Linux-x86__64-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
@@ -48,8 +48,9 @@ The optional OCR and LaMa models download from inside the app the first time the
 ## Highlights
 
 - **Many inputs**: images, folders, ZIP / CBZ, EPUB and PDF.
-- **Local vision**: bubble detection, OCR, inpainting and typesetting run on your computer; only
-  the text of the bubbles goes to the translation provider, never the images.
+- **Local vision**: bubble detection, OCR, inpainting and typesetting run on your computer; the
+  translation provider only gets the cut-out bubbles and text lines (one picture of them per
+  request), never your whole pages or files.
 - **Any LLM**: Google Gemini, Anthropic Claude, OpenAI, OpenRouter, Zen, OpenCode Go, or any
   OpenAI-compatible endpoint (Ollama, LM Studio, vLLM...).
 - **Clean results**: LaMa / Telea inpainting, bubble-aware line breaking, vertical Japanese,
@@ -59,6 +60,25 @@ The optional OCR and LaMa models download from inside the app the first time the
 - **Reader and export**: page or webtoon reading, export to CBZ or PDF.
 - **AI agents (Supporter)**: an MCP server and a CLI, so Claude Code, OpenCode or Codex can
   check and fix pages for you.
+
+---
+
+## Screenshots
+
+<p align="center"><img src="docs/assets/screenshots/translate.webp" width="900" alt="Translate"></p>
+<p align="center"><sub>Translate: drop pages, pick a language and an AI, press Translate.</sub></p>
+
+<p align="center"><img src="docs/assets/screenshots/progress.webp" width="900" alt="Each page shows how far it is while the chapter translates."></p>
+<p align="center"><sub>Each page shows how far it is while the chapter translates.</sub></p>
+
+<p align="center"><img src="docs/assets/screenshots/editor.webp" width="900" alt="Editor"></p>
+<p align="center"><sub>Editor: every bubble is a text box you can retype, restyle or move.</sub></p>
+
+<p align="center"><img src="docs/assets/screenshots/projects.webp" width="900" alt="Projects"></p>
+<p align="center"><sub>Projects: every run is kept, with its pages, to read, edit or export again.</sub></p>
+
+<p align="center"><img src="docs/assets/screenshots/reader.webp" width="900" alt="Reader"></p>
+<p align="center"><sub>Reader: page or webtoon mode, the original side by side if you want.</sub></p>
 
 ---
 

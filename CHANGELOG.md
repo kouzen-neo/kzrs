@@ -2,6 +2,45 @@
 
 All notable changes to KZRS, newest first.
 
+## 1.0.1 (unreleased)
+
+### Faster translation
+- About three times faster on a typical chapter: up to 3 requests go to the AI at once
+  (Settings > AI provider > At once, 1 to 8), a translated batch is cleaned and lettered, three
+  pages at a time, while the next one waits for the AI, and the batch after that is detected
+  meanwhile.
+- Bubbles the AI deliberately skips (credits, watermarks, name tags) are no longer sent again.
+- Optional light model: small bubbles and short lines can go to a cheaper model of the same
+  provider (Settings > AI provider > Light model); the main model takes anything it misses.
+  It saves on an expensive main model; it does not make a chapter faster.
+- Retry failed pages: when a few pages fail (a rate limit, a timeout), one click sends only those
+  again and keeps the pages already done.
+
+### Consistent names
+- The AI now reports the character names, places and terms it meets. Names a series keeps using
+  (seen in 2 of its chapters) are spelled the same way in its next chapters. They are listed in
+  the Glossary, where you can keep them as glossary terms or forget them.
+  Turn it off in Settings > Prompt > Learn character names.
+
+### A new look
+- One menu button, a grouped Translate panel, recent projects with covers and hover actions.
+- Translation progress shown on the pages themselves, skeleton thumbnails while they load,
+  toasts for finished work and errors, softer dialogs.
+- Find anything with Ctrl+K: modes, actions and projects.
+- Accent colors (Amber, Blue, Violet, Green, Rose) in Settings > General.
+- The editor's tools are grouped with richer tooltips, the inspector is aligned, and the zoom
+  sits in a floating pill on the page.
+- The app icon's ".rs" tag is amber, like the app.
+
+### First start
+- A three-step welcome: target language, AI provider (with a connection test, and the base URL
+  and model for a custom server), then your first pages.
+- Google Gemini is the default provider for new installs.
+
+### Updates
+- KZRS checks GitHub once a day for a newer version and says so; Help > Check for updates
+  asks right away.
+
 ## 1.0.0 (2026-11-06)
 
 First public release, for Windows and Linux. macOS is coming soon.

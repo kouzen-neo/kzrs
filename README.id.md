@@ -3,7 +3,7 @@
   <h1>KZRS</h1>
 
   <p>
-    <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=d9531e" alt="Rilis terbaru"></a>
+    <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=f0a43a" alt="Rilis terbaru"></a>
     <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4.svg?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
     <img src="https://img.shields.io/badge/macOS-segera%20hadir-6e7681.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS segera hadir">
     <img src="https://img.shields.io/badge/Linux-x86__64-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
@@ -49,7 +49,8 @@ Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibu
 
 - **Banyak format masukan**: gambar, folder, ZIP / CBZ, EPUB dan PDF.
 - **Vision lokal**: deteksi balon, OCR, inpainting dan penataan teks berjalan di komputermu; yang
-  dikirim ke penyedia terjemahan hanya teks balonnya, gambarnya tidak pernah.
+  dikirim ke penyedia terjemahan hanya potongan balon dan baris teksnya (satu gambar berisi potongan itu
+  per permintaan), tidak pernah halaman utuh atau file-mu.
 - **LLM apa saja**: Google Gemini, Anthropic Claude, OpenAI, OpenRouter, Zen, OpenCode Go, atau
   endpoint yang kompatibel dengan OpenAI (Ollama, LM Studio, vLLM...).
 - **Hasil rapi**: inpainting LaMa / Telea, pemenggalan baris sesuai balon, teks Jepang vertikal,
@@ -59,6 +60,25 @@ Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibu
 - **Pembaca dan ekspor**: mode halaman atau webtoon, ekspor ke CBZ atau PDF.
 - **Agen AI (Supporter)**: server MCP dan CLI, supaya Claude Code, OpenCode atau Codex bisa
   memeriksa dan memperbaiki halaman untukmu.
+
+---
+
+## Tangkapan layar
+
+<p align="center"><img src="docs/assets/screenshots/translate.webp" width="900" alt="Translate"></p>
+<p align="center"><sub>Translate: masukkan halaman, pilih bahasa dan AI, lalu tekan Translate.</sub></p>
+
+<p align="center"><img src="docs/assets/screenshots/progress.webp" width="900" alt="Tiap halaman menunjukkan sejauh mana prosesnya selama chapter diterjemahkan."></p>
+<p align="center"><sub>Tiap halaman menunjukkan sejauh mana prosesnya selama chapter diterjemahkan.</sub></p>
+
+<p align="center"><img src="docs/assets/screenshots/editor.webp" width="900" alt="Editor"></p>
+<p align="center"><sub>Editor: tiap balon adalah kotak teks yang bisa diketik ulang, diubah gayanya atau digeser.</sub></p>
+
+<p align="center"><img src="docs/assets/screenshots/projects.webp" width="900" alt="Projects"></p>
+<p align="center"><sub>Projects: tiap hasil terjemahan disimpan, bisa dibaca, diedit atau diekspor lagi.</sub></p>
+
+<p align="center"><img src="docs/assets/screenshots/reader.webp" width="900" alt="Reader"></p>
+<p align="center"><sub>Reader: mode halaman atau webtoon, bisa berdampingan dengan versi aslinya.</sub></p>
 
 ---
 
