@@ -2,17 +2,22 @@
 
 All notable changes to KZRS, newest first.
 
-## 1.0.1 (unreleased)
+## 1.0.1 (2026-11-11)
 
 ### Faster translation
-- About three times faster on a typical chapter: up to 3 requests go to the AI at once
-  (Settings > AI provider > At once, 1 to 8), a translated batch is cleaned and lettered, three
-  pages at a time, while the next one waits for the AI, and the batch after that is detected
-  meanwhile.
+- About 20% faster on a typical chapter in our benchmark (8 pages, with a fixed 2-second AI
+  response): up to 3 requests go to the AI at once (Settings > AI provider > At once, 1 to 8),
+  a translated batch is cleaned and lettered, three pages at a time, while the next one waits
+  for the AI, and the batch after that is detected meanwhile. The gain depends on how quickly
+  your AI provider answers.
 - Bubbles the AI deliberately skips (credits, watermarks, name tags) are no longer sent again.
 - Optional light model: small bubbles and short lines can go to a cheaper model of the same
   provider (Settings > AI provider > Light model); the main model takes anything it misses.
   It saves on an expensive main model; it does not make a chapter faster.
+- Fewer "too many requests" errors on free API plans: KZRS sends at most 12 requests a minute
+  to Google Gemini (its free plan allows about 15) and waits when it gets there. A dialog says
+  why a chapter is waiting and lets you turn the limit off; set it for any provider in
+  Settings > AI provider > Per minute.
 - Retry failed pages: when a few pages fail (a rate limit, a timeout), one click sends only those
   again and keeps the pages already done.
 
