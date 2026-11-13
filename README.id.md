@@ -77,7 +77,7 @@ Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibu
 <p align="center"><img src="docs/assets/screenshots/projects.webp" width="900" alt="Projects"></p>
 <p align="center"><sub>Projects: tiap hasil terjemahan disimpan, bisa dibaca, diedit atau diekspor lagi.</sub></p>
 
-<p align="center"><img src="docs/assets/screenshots/reader.webp" width="900" alt="Reader"></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/screenshots/reader-dark.webp"><img src="docs/assets/screenshots/reader.webp" width="900" alt="Reader"></picture></p>
 <p align="center"><sub>Reader: mode halaman atau webtoon, bisa berdampingan dengan versi aslinya.</sub></p>
 
 ---
