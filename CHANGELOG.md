@@ -2,6 +2,59 @@
 
 All notable changes to KZRS, newest first.
 
+## 1.0.5 (2026-11-18)
+
+### Buying a Supporter code
+- Buy a code right in the app (Supporter activation > Buy a code): pick a plan, enter your
+  email, scan the QRIS shown with any bank or e-wallet app. Once paid, the code activates itself;
+  no receipt to send. The 0.7% QRIS fee is added to the price.
+- Renew from Supporter > Renew…: the code stays the same and its end date moves on.
+- A clearer Supporter screen: what Supporter adds on the left, the plans as cards with their
+  price per month, and when active the code, end date and days left.
+- The same purchase on the website (Supporter page). Discord is the community and the place to
+  ask for help; the old QRIS picture and the #license receipt step are gone.
+
+### Speed and accuracy
+- Bubble detection about three times faster: the detector ran three times on every page (once per
+  confidence stage); it now runs once and its result is filtered three ways. Same bubbles found.
+- The detector model is half the size (52 MB instead of 104 MB): weights stored at half precision,
+  same bubbles found.
+- Local OCR reads vertical Japanese and Chinese correctly ("おい 待てよ！" was read as one wrong
+  character) and is about a third faster: crops are read near their size on the page.
+- Narration captions such as "Meanwhile..." are translated instead of skipped as credits.
+- Big sound effects outside bubbles (such as "ドドド" or "ゴゴゴ" on screentone) are found: free text
+  is detected on the page as it is, instead of with the bubbles blanked out first.
+- Local OCR: a text the model leaves out twice (usually a credit line) is kept as SKIP instead of
+  being sent again as a picture, which cost up to four extra requests per line.
+- Rate limits: the wait Gemini asks for (`retryDelay`) is honoured, and with a per-minute cap a
+  429 waits for the full minute.
+- CLI: `--params` rejects unknown keys instead of ignoring them.
+- Model downloads (OCR, LaMa) continue where they stopped: a dropped connection is retried from
+  the bytes already saved, and an interrupted download continues next time instead of starting over.
+
+### Reading bubbles
+- Read bubbles: Auto, Vision or Local OCR (Settings > Translate). Auto checks once whether the
+  chosen model can read images (a tiny picture of a digit) and uses vision when it can; a model
+  that cannot gets the bubbles as text read on this computer by the OCR models. A model that
+  refuses an image during a run is switched to OCR for the next pages.
+- Test connection also says whether the model reads images.
+- The editor's Translate again follows the same choice; boxes OCR cannot read are named in the log.
+- Text outside bubbles is read once: the text found while detecting it is sent as is, so the
+  OCR read mode no longer reads those boxes a second time.
+- Starred sound-effect labels such as *BONK* stay separate from the dialogue next to them, so
+  they are no longer erased together with it.
+- The OCR prompt is now identical to the Android app's (checked by the parity test).
+- Translate sound effects is on by default in the app (turned on once for existing settings;
+  switching it off again keeps it off).
+- Learned names no longer pick up whole lines of dialogue the AI listed by mistake; such
+  entries from earlier chapters are left out of the prompt.
+
+### Supporter
+- New 3-month plan (Rp 10.000) next to 1 year (Rp 20.000) and 3 years (Rp 50.000).
+- Free use is now 5 translated pages and 3 manual pages a day (was 10 and 5).
+- The top bar chip shows the days left in the last 14 days of a plan, and the Supporter screen
+  and Settings say how to renew (same code).
+
 ## 1.0.1 (2026-11-11)
 
 ### Faster translation

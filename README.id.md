@@ -84,32 +84,7 @@ Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibu
 
 ## Gratis dan Supporter
 
-KZRS gratis dengan **10 halaman terjemahan** dan **5 halaman manual (khusus editor) per hari**.
-Mengedit, membaca dan mengekspor hasil yang sudah ada tidak dibatasi. Tidak perlu akun.
-
-Kode **Supporter** menghapus batas harian dan membuka command line serta tool agen AI (MCP) untuk
-Claude Code, OpenCode dan Codex. Satu kode berlaku di satu komputer.
-
-| Paket | Harga |
-|---|---|
-| Supporter · 1 tahun | Rp 20.000 |
-| Supporter · 3 tahun | Rp 50.000 (hemat Rp 10.000) |
-
-### Cara mendapatkan kode
-
-1. Gabung [Discord](https://discord.gg/CdZUeMQQK) KZRS dan buka channel **#license**. Sebutkan paket yang kamu mau:
-   1 tahun atau 3 tahun.
-2. Bayar lewat **QRIS** (aplikasi bank atau e-wallet apa saja: GoPay, OVO, DANA, ShopeePay, m-banking).
-3. Kirim bukti pembayaran di **#license**. Kode kamu (`KZRS-XXXX-XXXX-XXXX`) dikirim lewat pesan.
-4. Di KZRS, buka *Supporter activation* (muncul saat pertama dibuka, atau klik chip di kanan bilah
-   atas), tempel kodenya lalu tekan **Activate**.
-
-Ganti komputer? Hapus perangkat lama di *Supporter activation*, lalu aktifkan kodenya di komputer baru.
-
-<div align="center">
-  <img src="docs/assets/qris.png" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
-  <p><sub>QRIS · ARDYAN DEV, DIGITAL &amp; KREATIF</sub></p>
-</div>
+KZRS gratis dipakai. Paket dan beli kode Supporter dengan QRIS (di app atau di website): [kzrs.kouzen.my.id/id/supporter](https://kzrs.kouzen.my.id/id/supporter/).
 
 ---
 

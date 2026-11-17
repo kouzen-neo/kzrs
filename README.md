@@ -84,32 +84,7 @@ The optional OCR and LaMa models download from inside the app the first time the
 
 ## Free and Supporter
 
-KZRS is free with **10 translated pages** and **5 manual (editor-only) pages a day**. Editing,
-reading and exporting what you already have are not limited. No account is needed.
-
-A **Supporter** code removes the daily limits and unlocks the command line and the AI agent tools
-(MCP) for Claude Code, OpenCode and Codex. A code works on one computer.
-
-| Plan | Price |
-|---|---|
-| Supporter · 1 year | Rp 20.000 |
-| Supporter · 3 years | Rp 50.000 (save Rp 10.000) |
-
-### How to get a code
-
-1. Join the KZRS [Discord](https://discord.gg/CdZUeMQQK) and open the **#license** channel. Say which plan you want:
-   1 year or 3 years.
-2. Pay with **QRIS** (any Indonesian bank or e-wallet app: GoPay, OVO, DANA, ShopeePay, m-banking).
-3. Post the payment receipt in **#license**. Your code (`KZRS-XXXX-XXXX-XXXX`) arrives by message.
-4. In KZRS, open *Supporter activation* (shown at the first start, or click the chip at the right of
-   the top bar), paste the code and press **Activate**.
-
-New computer? Remove the old device in *Supporter activation*, then activate the code on the new one.
-
-<div align="center">
-  <img src="docs/assets/qris.png" width="320" alt="QRIS: ARDYAN DEV, DIGITAL &amp; KREATIF" />
-  <p><sub>QRIS · ARDYAN DEV, DIGITAL &amp; KREATIF</sub></p>
-</div>
+KZRS is free to use. Plans and buying a Supporter code with QRIS (in the app or on the website): [kzrs.kouzen.my.id/supporter](https://kzrs.kouzen.my.id/supporter/).
 
 ---
 
