@@ -55,9 +55,11 @@ Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibu
   endpoint yang kompatibel dengan OpenAI (Ollama, LM Studio, vLLM...).
 - **Hasil rapi**: inpainting LaMa / Telea, pemenggalan baris sesuai balon, teks Jepang vertikal,
   font komik bawaan dan preset gaya.
-- **Editor halaman**: geser, ubah ukuran dan gaya kotak, kuas / restore / hapus, gambar dan
-  layer, edit massal, undo per halaman.
-- **Pembaca dan ekspor**: mode halaman atau webtoon, ekspor ke CBZ atau PDF.
+- **Editor halaman**: geser, ubah ukuran dan gaya kotak, balon dialog yang digambar, tebal /
+  miring / warna / font / ukuran di dalam satu baris, Translate area, kuas dengan penghapusnya
+  sendiri, restore / hapus, gambar dan layer, edit massal, undo per halaman.
+- **Pembaca dan ekspor**: mode halaman atau webtoon, membuka PDF / CBZ / ZIP / EPUB dari file
+  manager, ekspor ke CBZ atau PDF.
 - **Agen AI (Supporter)**: server MCP dan CLI, supaya Claude Code, OpenCode atau Codex bisa
   memeriksa dan memperbaiki halaman untukmu.
 

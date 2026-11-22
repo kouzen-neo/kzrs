@@ -55,9 +55,11 @@ The optional OCR and LaMa models download from inside the app the first time the
   OpenAI-compatible endpoint (Ollama, LM Studio, vLLM...).
 - **Clean results**: LaMa / Telea inpainting, bubble-aware line breaking, vertical Japanese,
   bundled comic fonts and style presets.
-- **Page editor**: move, resize and restyle boxes, brush / restore / erase tools, pictures and
-  layers, batch edits, undo per page.
-- **Reader and export**: page or webtoon reading, export to CBZ or PDF.
+- **Page editor**: move, resize and restyle boxes, drawn speech bubbles, bold / italic / colour /
+  font / size inside a line, Translate area, brush with its own eraser, restore / erase tools,
+  pictures and layers, batch edits, undo per page.
+- **Reader and export**: page or webtoon reading, opens PDF / CBZ / ZIP / EPUB from your file
+  manager, export to CBZ or PDF.
 - **AI agents (Supporter)**: an MCP server and a CLI, so Claude Code, OpenCode or Codex can
   check and fix pages for you.
 

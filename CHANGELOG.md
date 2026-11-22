@@ -2,6 +2,103 @@
 
 All notable changes to KZRS, newest first.
 
+## 1.1.0 (2026-11-22)
+
+### Speech bubbles and formatting
+- Drawn speech bubbles under a box's text: Box, Rounded, Oval, Thought or Shout, with fill,
+  outline, padding and a tail you aim with its own handle. They cover lettering that is hard to
+  erase. The Bubble tool (U) puts one under a box, or makes a new box with one.
+- Format part of a line: bold, italic, text colour, outline, font and size, from a toolbar over
+  the Translation field (or tags such as `<b>`, `<c=red>`, `<s=150%>` typed in the text). The
+  field shows the tags small and dim. The old `**bold**` and `*italic*` still work.
+- The format menus open beside the panel, so the text and its selection stay in view.
+
+### Your own fonts
+- Add font... at the end of every font list (options bar, format toolbar, batch edit) imports TTF,
+  OTF, TTC/OTC (every font in it), WOFF, or a ZIP of them. ZIPs are searched through all their
+  folders, ZIPs inside ZIPs included, so a font bundle comes in at once; other files are left out.
+- Imported fonts are kept by KZRS, named from the font itself ("Anime Ace Bold"), listed with a
+  preview in their own lettering, and work in `<f=...>` tags. A font already there is not added
+  twice; right-click one of your fonts in a list to remove it.
+- Opening a page that names a font this computer does not have says so; it draws in Default.
+
+### Editing faster
+- Pages renamed in a file manager keep their edits: opening the chapter (or renaming while it
+  is open) matches each page to its new file, so the editor no longer shows a black or wrong
+  page and saving no longer writes the old name again (a duplicate page). A page whose file is
+  gone shows its clean page in the Pages panel.
+- Restore original: right-click a box (or several) to bring back the original page under them
+  and remove those boxes, or empty page space to restore the whole page and remove all its text.
+  One step, undone with Ctrl+Z.
+- Deleted pages: Ctrl+Z right after Delete page puts the page back; later, the trash button in
+  the Pages panel (or Deleted pages in a page's menu) lists them to restore, or empties the trash.
+- Close (Ctrl+W, File menu, or the X in the Pages panel and the Reader bar) closes the chapter
+  and shows the start screen.
+- New project takes a PDF, CBZ, ZIP, EPUB or folder as well as images (one project per book or
+  folder). Open project folder starts in the output folder instead of the home folder.
+- `.kzrs` project files: Export as .kzrs project (Projects menu or File) packs the pages and their
+  edit data into one file; File > Open, Open .kzrs file in Projects, dropping it on Projects or
+  Open with KZRS unpacks it beside the chapters of its language and opens it in the editor.
+- File menu: Translate pages, New project, Open (a .kzrs project, a book or an image)
+  and Open folder (a project opens in the editor, other pages in the Reader). Projects explains
+  its buttons, and Open project folder on a plain image folder starts a new project.
+- CBZ and PDF exports of a project take only its pages, not copies or extra images in the folder;
+  a failed CBZ export leaves no half-written file.
+- File names work the same on Windows, macOS and Linux: images in ZIP and CBZ files with
+  characters Windows forbids are unpacked with "_", and renaming a page to a different case
+  works on Windows and macOS.
+- Rename or delete a page from its right-click menu in the Pages panel (a duplicate page, a
+  wrong name). The page's file and its edit data change together; a deleted page goes to the
+  chapter's `.kzrs/trash/` folder, so it can still be put back.
+- Select by rectangle: Ctrl+drag over the page selects every box and picture the rectangle
+  touches; Shift+drag on empty page adds them to what is already selected.
+- Translate area (A): drag over lettering and it becomes a box with its translation. Dragged over
+  a box that is already there, it replaces that box and keeps its style instead of adding a
+  second translation.
+- Proofread by keyboard: Enter types over the selected box's text; while typing, Tab goes to the
+  next box's text and on to the next page, Shift+Tab back.
+- F4 repeats the last style change (colour, size, bubble...) on the selected boxes.
+- Translate with a note (right-click a box): the AI translates it again following a short
+  instruction such as "more casual" or "keep the name Kei"; recent notes are offered again.
+- Continue: the empty editor (and Ctrl+K) opens the chapter and page you last edited.
+- Edit a chapter while it is still translating: Edit opens the pages done so far; the others
+  join the page list as they finish.
+- Page Up / Page Down open the next page almost at once: the pages next to the open one are
+  prepared ahead.
+- The AI models used for erasing and finding bubbles load in the background when a chapter
+  opens, so the first erase stroke does not wait for them. On a small computer (under 7 GB of
+  memory or under 4 processor threads) they load when first used instead; Settings > Editor
+  shows which way it works.
+- Boxes you translate by hand are never skipped.
+
+### Brush
+- The Brush paints on its own layer under the text. Its new eraser takes off only what you
+  painted, and the page shows again as it was, also after reopening the project. Clear paint
+  removes all paint on the page. Paint made with earlier versions stays part of the page.
+- Opacity (5 to 100%) replaces hardness: how much one stroke covers, or with the eraser how much
+  paint comes off.
+
+### Editor layout
+- The inspector starts with an action bar (Translate, Erase, Find, Reset, Delete) and shows its
+  settings as compact icon fields; the Layers list sits right under them.
+- Tidier right-click menus with icons and shortcuts: one for a box, a picture, the page, and
+  one for several selected items at once. Ctrl+A selects every box and picture.
+- Tool rail in groups (select, paint, erase, lettering, pictures); the colour picker moved to
+  the Brush options bar (I still picks).
+- The page list numbers the pages and shows how many there are.
+- Clearer icons, and "1 box" instead of "1 boxes".
+
+### Reader, interface and translating
+- Open PDF, CBZ, ZIP and EPUB files with KZRS from your file manager (Open with); they open in
+  the Reader. KZRS is added as a choice, not made the default app. Also "Open book..." in the
+  Reader and "Read a book" in the menu.
+- Interface size: automatic on large screens (4K and 1440p at 100% scaling get a bigger
+  interface), or pick 80 to 200% in Settings; Ctrl+Alt + / - / 0 change it.
+- The page grid of a running translation marks every page being worked on (six at a time),
+  not only the first.
+- PDF export: pages of mixed resolution come out the same width.
+- The Ctrl+K search no longer turns the screen dark over itself.
+
 ## 1.0.5 (2026-11-18)
 
 ### Buying a Supporter code
