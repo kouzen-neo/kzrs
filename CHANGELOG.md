@@ -4,6 +4,11 @@ All notable changes to KZRS, newest first.
 
 ## 1.1.0 (2026-11-22)
 
+### macOS
+- KZRS for macOS: `KZRS-1.1.0-macos-arm64.dmg` for Apple Silicon Macs (M1 to M5) with macOS 13.4
+  or newer, added to this release on 2026-11-24. Shortcuts use Cmd and Option, and the menus and
+  tips show them that way; Ctrl+Cmd+F switches the Reader to fullscreen.
+
 ### Speech bubbles and formatting
 - Drawn speech bubbles under a box's text: Box, Rounded, Oval, Thought or Shout, with fill,
   outline, padding and a tail you aim with its own handle. They cover lettering that is hard to

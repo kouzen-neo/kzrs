@@ -5,7 +5,7 @@
   <p>
     <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=f0a43a" alt="Latest release"></a>
     <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4.svg?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-    <img src="https://img.shields.io/badge/macOS-coming%20soon-6e7681.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS coming soon">
+    <img src="https://img.shields.io/badge/macOS-13.4%2B-000000.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
     <img src="https://img.shields.io/badge/Linux-x86__64-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
     <img src="https://img.shields.io/badge/Rust-native-b7410e.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
   </p>
@@ -33,11 +33,12 @@ Get the latest version from **[Releases](https://github.com/kouzen-neo/kzrs/rele
 |---|---|---|
 | Windows 10/11 (64-bit) | `KZRS-Setup-<version>-x64.exe` | Run it and follow the steps (no admin needed). `KZRS-<version>-x64.msi` is the same app for IT / company PCs. |
 | Linux x86_64 (Ubuntu 24.04, Debian 13, Fedora 39, Mint 22 or newer) | `KZRS-<version>-x86_64.AppImage` | Make it executable (`chmod +x`, or Properties → Allow executing) and open it. A `.tar.gz` with an `install.sh` menu installer is there too. |
-| macOS (Apple Silicon) | Coming soon | |
+| macOS 13.4 or newer (Apple Silicon: M1 to M5) | `KZRS-<version>-macos-arm64.dmg` | Open the `.dmg` and drag **KZRS** to **Applications**. Intel Macs are not supported. |
 
 The apps are not code-signed yet, so the system asks once:
 
 - **Windows**: "Windows protected your PC" → **More info** → **Run anyway**.
+- **macOS**: open KZRS once, then **System Settings** → **Privacy & Security** → **Open Anyway**.
 - **Linux AppImage**: if it does not start, install `libfuse2`, or run it with `--appimage-extract-and-run`.
 
 The optional OCR and LaMa models download from inside the app the first time they are needed

@@ -5,7 +5,7 @@
   <p>
     <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=f0a43a" alt="Rilis terbaru"></a>
     <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4.svg?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-    <img src="https://img.shields.io/badge/macOS-segera%20hadir-6e7681.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS segera hadir">
+    <img src="https://img.shields.io/badge/macOS-13.4%2B-000000.svg?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
     <img src="https://img.shields.io/badge/Linux-x86__64-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
     <img src="https://img.shields.io/badge/Rust-native-b7410e.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
   </p>
@@ -33,11 +33,12 @@ Ambil versi terbaru di **[Releases](https://github.com/kouzen-neo/kzrs/releases/
 |---|---|---|
 | Windows 10/11 (64-bit) | `KZRS-Setup-<versi>-x64.exe` | Jalankan dan ikuti langkahnya (tidak perlu admin). `KZRS-<versi>-x64.msi` adalah aplikasi yang sama untuk IT / PC kantor. |
 | Linux x86_64 (Ubuntu 24.04, Debian 13, Fedora 39, Mint 22 atau lebih baru) | `KZRS-<versi>-x86_64.AppImage` | Jadikan executable (`chmod +x`, atau Properties → Allow executing) lalu buka. Ada juga `.tar.gz` dengan `install.sh` untuk menu aplikasi. |
-| macOS (Apple Silicon) | Segera hadir | |
+| macOS 13.4 atau lebih baru (Apple Silicon: M1 sampai M5) | `KZRS-<versi>-macos-arm64.dmg` | Buka `.dmg` lalu seret **KZRS** ke **Applications**. Mac Intel belum didukung. |
 
 Aplikasinya belum ditandatangani (code signing), jadi sistem akan bertanya sekali:
 
 - **Windows**: "Windows protected your PC" → **More info** → **Run anyway**.
+- **macOS**: buka KZRS sekali, lalu **System Settings** → **Privacy & Security** → **Open Anyway**.
 - **Linux AppImage**: kalau tidak mau jalan, pasang `libfuse2`, atau jalankan dengan `--appimage-extract-and-run`.
 
 Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibutuhkan
