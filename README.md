@@ -71,7 +71,7 @@ The optional OCR and LaMa models download from inside the app the first time the
 
 ## Free and Pro
 
-Kazeru is free to use. Plans and buying a Pro code with QRIS (in the app or on the website): [kzrs.kouzen.my.id/supporter](https://kzrs.kouzen.my.id/supporter/).
+Kazeru is free to use. Plans and buying a Pro code with QRIS on the website: [kazeru.kouzen.my.id/supporter](https://kazeru.kouzen.my.id/supporter/).
 
 ---
 

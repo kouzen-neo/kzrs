@@ -71,7 +71,7 @@ Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibu
 
 ## Gratis dan Pro
 
-Kazeru gratis dipakai. Paket dan beli kode Pro dengan QRIS (di app atau di website): [kzrs.kouzen.my.id/id/supporter](https://kzrs.kouzen.my.id/id/supporter/).
+Kazeru gratis dipakai. Paket dan beli kode Pro dengan QRIS di website: [kazeru.kouzen.my.id/id/supporter](https://kazeru.kouzen.my.id/id/supporter/).
 
 ---
 
