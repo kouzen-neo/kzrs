@@ -2,6 +2,49 @@
 
 All notable changes to Kazeru (formerly KZRS), newest first.
 
+## 1.2.0 (Unreleased)
+
+### Kazeru
+- KZRS is now called Kazeru. The window title, top bar, onboarding, update and licence messages,
+  the command line help and the app names on Windows, Linux and macOS say Kazeru. There is a new
+  icon (a cream "kz" with an amber ".ru" tag) and an amber accent. Installing over 1.1.x keeps
+  your settings, licence and projects.
+- Not renamed: the `kzrs` command, the data folders, licence codes (`KZRS-...`) and the names of
+  the download files.
+- "Supporter" is now called Pro in the app. Existing licence codes work as before.
+- The Windows installer removes the old KZRS shortcuts when it upgrades in place.
+- The update check looks at the new Kazeru release page first and then at the old one, so
+  updates keep arriving while the pages move.
+
+### Buying Pro on the website
+- A Pro code is bought and renewed on the website (kazeru.kouzen.my.id). In the app, "Buy on the
+  website" opens the page; copy the code there, paste it under Have a code and press Activate.
+  Codes you already have keep working, and an unfinished saved order still resumes.
+- The renew button and the message for an ended licence say to renew on the website. The code
+  stays the same and its end date moves on.
+
+### Text effects
+- Effects for lettering: a second outline, a drop shadow and an outer glow, sized in em. The
+  Effects section of the inspector has one-click looks with an "Aa" preview, and Adjust for exact
+  values.
+- Shout gets a second outline; sound effects get a second outline and a hard shadow.
+- The agent style tools read and set the effects. Boxes without effects draw as before, and old
+  projects load unchanged.
+
+### A calmer interface
+- Editor, Reader and Projects share one start screen when nothing is open: an icon, a line of
+  text, one main button and equal buttons under it. With nothing open the editor hides its tool
+  rail and panels, and the status bar drops the old zoom and size.
+- Dialogs dim the window behind them and have one close button. The status bar shows only when it
+  has something to say.
+- Projects: a placeholder cover for a missing folder (sorted last) and a Remove missing button.
+  Recent skips chapters whose folder is gone.
+- Settings marks the selected section with an accent line instead of a solid block. The mode tab
+  line glides between tabs, and a page change is a short fade.
+- The AI card opens a provider and model picker with a model list loader. The empty Glossary
+  explains how learned names become terms.
+- The second outline's "Text color" chip shows the text colour, not a crossed swatch.
+
 ## 1.1.0 (2026-11-22)
 
 ### macOS
