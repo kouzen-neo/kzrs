@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="docs/assets/app_icon.png" width="100" alt="Logo KZRS" />
-  <h1>KZRS</h1>
+  <img src="docs/assets/app_icon.png" width="100" alt="Logo Kazeru" />
+  <h1>Kazeru</h1>
+  <p><sub>dulu bernama KZRS</sub></p>
 
   <p>
     <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=f0a43a" alt="Rilis terbaru"></a>
@@ -16,7 +17,9 @@
   </p>
 </div>
 
-KZRS adalah penerjemah manga dan komik untuk desktop, dibuat dengan Rust. KZRS menemukan balon
+> **Repositori legacy.** KZRS sekarang bernama **Kazeru**. Rilis baru, unduhan dan catatan perubahan akan pindah ke [kouzen-neo/kazeru](https://github.com/kouzen-neo/kazeru) (belum dipublikasikan). Repositori ini tetap online untuk rilis yang sudah ada, dan app yang terpasang tetap update dari sini sampai pindahan selesai.
+
+Kazeru adalah penerjemah manga dan komik untuk desktop, dibuat dengan Rust. Kazeru menemukan balon
 dialog dan teks bebas di halaman dengan AI di perangkat, menerjemahkannya dengan penyedia LLM
 pilihanmu (atau yang lokal seperti Ollama atau LM Studio), menghapus tulisan aslinya, lalu
 menata terjemahannya kembali di halaman. Ada editor halaman, pembaca, dan ekspor CBZ/PDF.
@@ -33,12 +36,12 @@ Ambil versi terbaru di **[Releases](https://github.com/kouzen-neo/kzrs/releases/
 |---|---|---|
 | Windows 10/11 (64-bit) | `KZRS-Setup-<versi>-x64.exe` | Jalankan dan ikuti langkahnya (tidak perlu admin). `KZRS-<versi>-x64.msi` adalah aplikasi yang sama untuk IT / PC kantor. |
 | Linux x86_64 (Ubuntu 24.04, Debian 13, Fedora 39, Mint 22 atau lebih baru) | `KZRS-<versi>-x86_64.AppImage` | Jadikan executable (`chmod +x`, atau Properties → Allow executing) lalu buka. Ada juga `.tar.gz` dengan `install.sh` untuk menu aplikasi. |
-| macOS 13.4 atau lebih baru (Apple Silicon: M1 sampai M5) | `KZRS-<versi>-macos-arm64.dmg` | Buka `.dmg` lalu seret **KZRS** ke **Applications**. Mac Intel belum didukung. |
+| macOS 13.4 atau lebih baru (Apple Silicon: M1 sampai M5) | `KZRS-<versi>-macos-arm64.dmg` | Buka `.dmg` lalu seret **Kazeru** ke **Applications**. Mac Intel belum didukung. |
 
 Aplikasinya belum ditandatangani (code signing), jadi sistem akan bertanya sekali:
 
 - **Windows**: "Windows protected your PC" → **More info** → **Run anyway**.
-- **macOS**: buka KZRS sekali, lalu **System Settings** → **Privacy & Security** → **Open Anyway**.
+- **macOS**: buka Kazeru sekali, lalu **System Settings** → **Privacy & Security** → **Open Anyway**.
 - **Linux AppImage**: kalau tidak mau jalan, pasang `libfuse2`, atau jalankan dengan `--appimage-extract-and-run`.
 
 Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibutuhkan
@@ -61,33 +64,14 @@ Model OCR dan LaMa (opsional) diunduh dari dalam aplikasi saat pertama kali dibu
   sendiri, restore / hapus, gambar dan layer, edit massal, undo per halaman.
 - **Pembaca dan ekspor**: mode halaman atau webtoon, membuka PDF / CBZ / ZIP / EPUB dari file
   manager, ekspor ke CBZ atau PDF.
-- **Agen AI (Supporter)**: server MCP dan CLI, supaya Claude Code, OpenCode atau Codex bisa
+- **Agen AI (Pro)**: server MCP dan CLI, supaya Claude Code, OpenCode atau Codex bisa
   memeriksa dan memperbaiki halaman untukmu.
 
 ---
 
-## Tangkapan layar
+## Gratis dan Pro
 
-<p align="center"><img src="docs/assets/screenshots/translate.webp" width="900" alt="Translate"></p>
-<p align="center"><sub>Translate: masukkan halaman, pilih bahasa dan AI, lalu tekan Translate.</sub></p>
-
-<p align="center"><img src="docs/assets/screenshots/progress.webp" width="900" alt="Tiap halaman menunjukkan sejauh mana prosesnya selama chapter diterjemahkan."></p>
-<p align="center"><sub>Tiap halaman menunjukkan sejauh mana prosesnya selama chapter diterjemahkan.</sub></p>
-
-<p align="center"><img src="docs/assets/screenshots/editor.webp" width="900" alt="Editor"></p>
-<p align="center"><sub>Editor: tiap balon adalah kotak teks yang bisa diketik ulang, diubah gayanya atau digeser.</sub></p>
-
-<p align="center"><img src="docs/assets/screenshots/projects.webp" width="900" alt="Projects"></p>
-<p align="center"><sub>Projects: tiap hasil terjemahan disimpan, bisa dibaca, diedit atau diekspor lagi.</sub></p>
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/screenshots/reader-dark.webp"><img src="docs/assets/screenshots/reader.webp" width="900" alt="Reader"></picture></p>
-<p align="center"><sub>Reader: mode halaman atau webtoon, bisa berdampingan dengan versi aslinya.</sub></p>
-
----
-
-## Gratis dan Supporter
-
-KZRS gratis dipakai. Paket dan beli kode Supporter dengan QRIS (di app atau di website): [kzrs.kouzen.my.id/id/supporter](https://kzrs.kouzen.my.id/id/supporter/).
+Kazeru gratis dipakai. Paket dan beli kode Pro dengan QRIS (di app atau di website): [kzrs.kouzen.my.id/id/supporter](https://kzrs.kouzen.my.id/id/supporter/).
 
 ---
 

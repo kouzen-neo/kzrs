@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="docs/assets/app_icon.png" width="100" alt="KZRS logo" />
-  <h1>KZRS</h1>
+  <img src="docs/assets/app_icon.png" width="100" alt="Kazeru logo" />
+  <h1>Kazeru</h1>
+  <p><sub>formerly KZRS</sub></p>
 
   <p>
     <a href="https://github.com/kouzen-neo/kzrs/releases/latest"><img src="https://img.shields.io/github/v/release/kouzen-neo/kzrs?style=for-the-badge&color=f0a43a" alt="Latest release"></a>
@@ -16,7 +17,9 @@
   </p>
 </div>
 
-KZRS is a desktop manga and comic translator written in Rust. It finds the speech bubbles and
+> **Legacy repository.** KZRS is now **Kazeru**. New releases, downloads and the changelog will move to [kouzen-neo/kazeru](https://github.com/kouzen-neo/kazeru) (not published yet). This repository stays online for the existing releases, and installed apps keep updating from it until the move.
+
+Kazeru is a desktop manga and comic translator written in Rust. It finds the speech bubbles and
 free text on a page with on-device AI, translates them with the LLM provider you choose (or a
 local one such as Ollama or LM Studio), erases the original lettering and typesets the
 translation back onto the page. A full page editor, a reader and CBZ/PDF export are built in.
@@ -33,12 +36,12 @@ Get the latest version from **[Releases](https://github.com/kouzen-neo/kzrs/rele
 |---|---|---|
 | Windows 10/11 (64-bit) | `KZRS-Setup-<version>-x64.exe` | Run it and follow the steps (no admin needed). `KZRS-<version>-x64.msi` is the same app for IT / company PCs. |
 | Linux x86_64 (Ubuntu 24.04, Debian 13, Fedora 39, Mint 22 or newer) | `KZRS-<version>-x86_64.AppImage` | Make it executable (`chmod +x`, or Properties → Allow executing) and open it. A `.tar.gz` with an `install.sh` menu installer is there too. |
-| macOS 13.4 or newer (Apple Silicon: M1 to M5) | `KZRS-<version>-macos-arm64.dmg` | Open the `.dmg` and drag **KZRS** to **Applications**. Intel Macs are not supported. |
+| macOS 13.4 or newer (Apple Silicon: M1 to M5) | `KZRS-<version>-macos-arm64.dmg` | Open the `.dmg` and drag **Kazeru** to **Applications**. Intel Macs are not supported. |
 
 The apps are not code-signed yet, so the system asks once:
 
 - **Windows**: "Windows protected your PC" → **More info** → **Run anyway**.
-- **macOS**: open KZRS once, then **System Settings** → **Privacy & Security** → **Open Anyway**.
+- **macOS**: open Kazeru once, then **System Settings** → **Privacy & Security** → **Open Anyway**.
 - **Linux AppImage**: if it does not start, install `libfuse2`, or run it with `--appimage-extract-and-run`.
 
 The optional OCR and LaMa models download from inside the app the first time they are needed
@@ -61,33 +64,14 @@ The optional OCR and LaMa models download from inside the app the first time the
   pictures and layers, batch edits, undo per page.
 - **Reader and export**: page or webtoon reading, opens PDF / CBZ / ZIP / EPUB from your file
   manager, export to CBZ or PDF.
-- **AI agents (Supporter)**: an MCP server and a CLI, so Claude Code, OpenCode or Codex can
+- **AI agents (Pro)**: an MCP server and a CLI, so Claude Code, OpenCode or Codex can
   check and fix pages for you.
 
 ---
 
-## Screenshots
+## Free and Pro
 
-<p align="center"><img src="docs/assets/screenshots/translate.webp" width="900" alt="Translate"></p>
-<p align="center"><sub>Translate: drop pages, pick a language and an AI, press Translate.</sub></p>
-
-<p align="center"><img src="docs/assets/screenshots/progress.webp" width="900" alt="Each page shows how far it is while the chapter translates."></p>
-<p align="center"><sub>Each page shows how far it is while the chapter translates.</sub></p>
-
-<p align="center"><img src="docs/assets/screenshots/editor.webp" width="900" alt="Editor"></p>
-<p align="center"><sub>Editor: every bubble is a text box you can retype, restyle or move.</sub></p>
-
-<p align="center"><img src="docs/assets/screenshots/projects.webp" width="900" alt="Projects"></p>
-<p align="center"><sub>Projects: every run is kept, with its pages, to read, edit or export again.</sub></p>
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/screenshots/reader-dark.webp"><img src="docs/assets/screenshots/reader.webp" width="900" alt="Reader"></picture></p>
-<p align="center"><sub>Reader: page or webtoon mode, the original side by side if you want.</sub></p>
-
----
-
-## Free and Supporter
-
-KZRS is free to use. Plans and buying a Supporter code with QRIS (in the app or on the website): [kzrs.kouzen.my.id/supporter](https://kzrs.kouzen.my.id/supporter/).
+Kazeru is free to use. Plans and buying a Pro code with QRIS (in the app or on the website): [kzrs.kouzen.my.id/supporter](https://kzrs.kouzen.my.id/supporter/).
 
 ---
 

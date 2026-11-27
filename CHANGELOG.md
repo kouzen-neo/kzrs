@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to KZRS, newest first.
+All notable changes to Kazeru (formerly KZRS), newest first.
 
 ## 1.1.0 (2026-11-22)
 
